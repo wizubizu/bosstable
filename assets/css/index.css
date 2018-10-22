@@ -869,6 +869,23 @@
     font-size: 12px;
   }
 
+  .__pricehead {
+    width: 100%;
+  }
+
+  .__pricecard1 p:nth-child(4) {
+    margin-left: 33px;
+  }
+
+  .__pricecard {
+    margin-top: 8px;
+  }
+
+
+.__pricecard1 {
+    margin-top: 8px;
+  }
+
 
 
 
@@ -1244,6 +1261,18 @@
   }
 
   .__contimg {
+    margin-top: 0;
+  }
+
+  .__pricehead {
+    width: 100%;
+  }
+
+  .__pricecard {
+    margin-top: 0;
+  }
+
+  .__pricecard1 {
     margin-top: 0;
   }
 

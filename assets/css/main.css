@@ -1271,19 +1271,283 @@ a:focus, a:hover {
   margin-top: 200px;
 }
 
+.__priceboss{
+  font-size: 19px;
+  line-height: 1.47;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #4c4c4c;
+  margin-top: 45px;
+}
+
+.__pricehead{
+  margin: 0 auto;
+  width: 830px;
+}
+
 .__pricecard{
   border-radius: 7px;
   border: solid 1px #f1f1f1;
   background-color: #ffffff;
+  padding: 0 38px;
+  height: 555px;
+  margin-top: 120px;
+  transition: all 0.4s ease-in;
+}
+
+.__pricecard:hover{
+  box-shadow: 0 0 4px 4px rgba(235, 235, 235, 0.5);
+  margin-top: 103px;
 }
 
 .__pricecard img:nth-child(1){
   margin-top: 17px;
+  margin-left: -36px;
 }
 
 .__pricecard img:nth-child(2){
   margin-top: 17px;
 }
+
+.__pricecard p:nth-child(3){
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0a0b09;
+}
+
+.__pricecard sup{
+  font-size: 12px;
+  top: -1.5em;
+}
+
+.__pricecard p:nth-child(4){
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  color: #626262;
+  margin-top: 70px;
+}
+
+.__pricecard p:nth-child(5){
+  border-radius: 5px;
+  box-shadow: 0 10px 50px 0 rgba(7, 42, 68, 0.12);
+  background-color: #4285f4;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.__pricecard1{
+  border-radius: 7px;
+  border: solid 1px #f1f1f1;
+  background-color: #ffffff;
+  padding: 0 38px;
+  height: 555px;
+  margin-top: 120px;
+  transition: all 0.4s ease-in;
+}
+
+.__pricecard1:hover{
+  box-shadow: 0 0 4px 4px rgba(235, 235, 235, 0.5);
+  margin-top: 103px;
+}
+
+.__pricecard1 img:nth-child(1){
+  margin-top: 17px;
+  margin-left: -36px;
+}
+
+.__pricecard1 img:nth-child(2){
+  margin-top: 17px;
+}
+
+.__pricecard1 p:nth-child(3){
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0a0b09;
+}
+
+.__pricecard1 sup{
+  font-size: 12px;
+  top: -1.5em;
+}
+
+.__pricecard1 p:nth-child(4){
+  font-size: 16px;
+  line-height: 1.38;
+  /*text-align: center;*/
+  color: #626262;
+  margin-left: 47px;
+}
+.__pricecard1 p:nth-child(5){
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  color: #626262;
+}
+
+.__pricecard1 p:nth-child(6){
+  border-radius: 5px;
+  box-shadow: 0 10px 50px 0 rgba(7, 42, 68, 0.12);
+  background-color: #4285f4;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.__check{
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.27;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0a0b09;
+  margin-top: 20px;
+}
+
+/*for custom radio and check button*/
+.__radio {
+  /*font-family: AvenirLTStd-Roman;*/
+ 
+     /*display: block;*/
+    position: relative;
+    padding-left: 30px;
+    /*margin-bottom: 12px;*/
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.28;
+    letter-spacing: 0px;
+    color: #0a0b09;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+/* Hide the browser's default radio button */
+.__radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkround {
+
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #fff ;
+    border-color:#5e5e5e;
+    border-style:solid;
+    border-width:2px;
+     border-radius: 50%;
+}
+
+
+/* When the radio button is checked, add a blue background */
+.__radio input:checked ~ .checkround {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkround:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.__radio input:checked ~ .checkround:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.__radio .checkround:after {
+     left: 2px;
+    top: 2px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background:#5e5e5e;
+    
+}
+
+#picture_preview{
+  /*max-width: 100px;
+  max-height: 100px;*/
+  width: 90px;
+  height: 90px;
+  transition: all 1s ease-in;
+}
+
+.__picture{
+  width: 102px;
+  /*height: 195px;*/
+  /*position: relative;*/
+  cursor: pointer;
+  text-align: center;
+  /*margin-top: -30px;*/
+}
+
+.__picture img{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #979797;
+  transition: all 2s ease;
+}
+.__picture input {
+   cursor: pointer;
+    position: absolute;
+    display: block;
+    margin-top: -91px;
+    left: 22px;
+    opacity: 0;
+    height: 93px;
+    width: 90px;
+}
+
+.__picture .__pimg {
+    position: absolute;
+    margin-top: 53px;
+    width: 32px;
+    height: 32px;
+    margin-left: -30px;
+}
+
+.__faceout{
+  border: 1px solid;
+    height: 349px;
+    padding: 20px;
+}
+
+.__facein{
+      border: 1px solid;
+    height: 303px;
+    background: #F7F7F7;
+}
+
+
+
 
 
 
