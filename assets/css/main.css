@@ -772,6 +772,7 @@ a:focus, a:hover {
   line-height: 2.33;
   letter-spacing: 0.7px;
   color: #8f8f8f;
+  font-style: italic;
 }
 
 .__testcard{
@@ -945,8 +946,8 @@ a:focus, a:hover {
 .__bounce{
   position: absolute;
     width: 100%;
-    margin-top: -432px;
-    margin-left: 174px;
+    margin-top: -287px;
+    margin-left: 180px;
 }
 .__bo {
   position: relative;
@@ -1123,6 +1124,7 @@ a:focus, a:hover {
   line-height: 1.25;
   letter-spacing: 1px;
   color: #ffffff;
+  margin-top: 20px;
 }
 
 .__bootsub:hover{
@@ -1138,6 +1140,7 @@ a:focus, a:hover {
     line-height: 1.25;
     letter-spacing: 1px;
     color: #717171;
+    resize: none;
 }
 
 .__haveac{
