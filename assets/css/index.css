@@ -752,6 +752,10 @@
 
 @media screen and (max-width: 800px){
 
+  .__logo {
+    width: 100px;
+  }
+
   .bossbg {
     height: 478px;
   }
@@ -812,7 +816,7 @@
 
   .__bounce {
     margin-left: 0px;
-    margin-top: -396px;
+    margin-top: -380px;
   }
 
   .__laptop {
