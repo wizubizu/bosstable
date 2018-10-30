@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="168px" height="184px" viewBox="0 0 168 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="98px" height="66px" viewBox="0 0 98 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
     <title>Group 11</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="79.7005208%" id="linearGradient-1">
-            <stop stop-color="#F0F6FD" offset="0%"></stop>
-            <stop stop-color="#FFFFFF" offset="100%"></stop>
-        </linearGradient>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy-3" transform="translate(-264.000000, -650.000000)">
-            <g id="Group-11" transform="translate(264.000000, 650.000000)">
-                <ellipse id="Oval-3" fill="url(#linearGradient-1)" cx="84" cy="109" rx="84" ry="75"></ellipse>
-                <g id="Group-19" transform="translate(26.000000, 0.000000)">
+        <g id="Artboard-Copy-3" transform="translate(-290.000000, -650.000000)">
+            <g id="Group-11" transform="translate(290.000000, 650.000000)">
+                <g id="Group-19">
                     <path d="M98,63 C98,64.6564498 76.5094129,66 50,66 C23.4899403,66 2,64.6564498 2,63 C2,61.3428886 23.4899403,60 50,60 C76.5094129,60 98,61.3428886 98,63" id="Fill-114" fill="#4285F4" opacity="0.14505597"></path>
                     <polygon id="Fill-115" fill="#F0F6FD" points="49 18 59 18 59 6 49 6"></polygon>
                     <polygon id="Fill-116" fill="#6C93E4" points="48 6 60 6 60 2 48 2"></polygon>

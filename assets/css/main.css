@@ -463,11 +463,11 @@ a:focus, a:hover {
 }
 
 .bossbg{
-  background-image: url(../img/bosstablebg.svg);
+  background-image: url(../img/bosstablebg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 835px;
+    height: 100vh;
 }
 
 .__navba{
@@ -512,11 +512,12 @@ a:focus, a:hover {
 }
 
 .__humanstart p:nth-child(1){
-  font-size: 45px;
-  font-weight: bold;
+  font-size: 50px;
+  /*font-weight: bold;*/
   line-height: 1.24;
   letter-spacing: 0px;
   color: #0a0b09;
+  font-family: Quicksand-Bold;
 }
 
 .__humanstart p:nth-child(2){
@@ -1308,15 +1309,26 @@ a:focus, a:hover {
 }
 
 .__pricecard img:nth-child(1){
-  margin-top: 17px;
-  margin-left: -36px;
+ margin-top: -41px;
+    margin-left: -24px;
+    width: 60px;
 }
 
 .__pricecard img:nth-child(2){
-  margin-top: 17px;
+  margin-top: 98px;
 }
 
 .__pricecard p:nth-child(3){
+  font-size: 20px;
+    margin-top: 10px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0a0b09;
+}
+
+.__pricecard p:nth-child(4){
   font-size: 28px;
   font-weight: 600;
   line-height: 1.25;
@@ -1330,15 +1342,15 @@ a:focus, a:hover {
   top: -1.5em;
 }
 
-.__pricecard p:nth-child(4){
+.__pricecard p:nth-child(5){
   font-size: 16px;
   line-height: 1.38;
   text-align: center;
   color: #626262;
-  margin-top: 70px;
+  margin-top: 27px;
 }
 
-.__pricecard p:nth-child(5){
+.__pricecard a:nth-child(6){
   border-radius: 5px;
   box-shadow: 0 10px 50px 0 rgba(7, 42, 68, 0.12);
   background-color: #4285f4;
@@ -1348,8 +1360,8 @@ a:focus, a:hover {
   letter-spacing: 1px;
   text-align: center;
   color: #ffffff;
-  margin-top: 20px;
-  padding: 10px;
+  padding: 10px 50px;
+  /*margin-top: 58px;*/
 }
 
 .__pricecard1{
@@ -1368,15 +1380,26 @@ a:focus, a:hover {
 }
 
 .__pricecard1 img:nth-child(1){
-  margin-top: 17px;
-  margin-left: -36px;
+  margin-top: -41px;
+    margin-left: -24px;
+    width: 60px;
 }
 
 .__pricecard1 img:nth-child(2){
-  margin-top: 17px;
+  margin-top: 98px;
 }
 
 .__pricecard1 p:nth-child(3){
+      font-size: 20px;
+    margin-top: 10px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #0a0b09;
+}
+
+.__pricecard1 p:nth-child(4){
   font-size: 28px;
   font-weight: 600;
   line-height: 1.25;
@@ -1390,21 +1413,14 @@ a:focus, a:hover {
   top: -1.5em;
 }
 
-.__pricecard1 p:nth-child(4){
-  font-size: 16px;
+.__pricecard1 p:nth-child(5){
+  font-size: 13px;
   line-height: 1.38;
   /*text-align: center;*/
-  color: #626262;
+  color: #626262c7;
   margin-left: 47px;
 }
-.__pricecard1 p:nth-child(5){
-  font-size: 16px;
-  line-height: 1.38;
-  text-align: center;
-  color: #626262;
-}
-
-.__pricecard1 p:nth-child(6){
+.__pricecard1 a:nth-child(6){
   border-radius: 5px;
   box-shadow: 0 10px 50px 0 rgba(7, 42, 68, 0.12);
   background-color: #4285f4;
@@ -1414,8 +1430,7 @@ a:focus, a:hover {
   letter-spacing: 1px;
   text-align: center;
   color: #ffffff;
-  margin-top: 20px;
-  padding: 10px;
+  padding: 10px 50px;
 }
 
 .__check{
@@ -1425,7 +1440,15 @@ a:focus, a:hover {
   letter-spacing: 0px;
   text-align: center;
   color: #0a0b09;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.__check .fa-times{
+  color: #f13a5994;
+}
+
+.__check .fa-check{
+  color: #00c795;
 }
 
 /*for custom radio and check button*/
@@ -1434,14 +1457,14 @@ a:focus, a:hover {
  
      /*display: block;*/
     position: relative;
-    padding-left: 30px;
+    padding-left: 22px;
     /*margin-bottom: 12px;*/
     cursor: pointer;
-    font-size: 15px;
-    font-weight: bold;
+    /*font-size: 15px;*/
+    /*font-weight: bold;*/
     line-height: 1.28;
     letter-spacing: 0px;
-    color: #0a0b09;
+    /*color: #0a0b09;*/
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -1674,7 +1697,15 @@ a:focus, a:hover {
 
 
 
+.__booreg{
+  margin-top: 25%;
+}
 
+.__copyright{
+  text-align: center;
+    /*padding: 46px 0 1px;*/
+    /*color: #ffffff;*/
+}
 
 
 

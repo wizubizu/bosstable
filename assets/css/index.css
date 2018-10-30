@@ -571,7 +571,7 @@
 @media screen and (max-width: 1330px){
 
   .__dashphone {
-    height: 549px;
+    height: 514px;
     margin-top: 2%;
   }
 
@@ -588,7 +588,7 @@
   }
 
   .__laptop {
-    margin-left: 92px;
+    margin-left: 0;
   }
 
 
@@ -614,7 +614,7 @@
   }
 
   .__dashphone {
-    height: 493px;
+    height: 421px !important;
     margin-top: 6%;
   }
 
@@ -634,6 +634,12 @@
   .__testmonies p:nth-child(1) {
     font-size: 28px;
   }
+
+  .__humanstart p:nth-child(1) {
+    font-size: 42px;
+  }
+
+ 
 
 }
 
@@ -692,6 +698,10 @@
     margin-top: 12%;
   }
 
+  .__humanstart p:nth-child(1) {
+    font-size: 40px;
+  }
+
   .__dashphone {
     height: 420px;
   }
@@ -710,7 +720,7 @@
   }
 
   .__laptop {
-    margin-left: 42px;
+    margin-left: 0;
   }
 
   .__contflower {
@@ -890,6 +900,22 @@
     margin-top: 8px;
   }
 
+  .__pricecard1 img:nth-child(1) {
+    margin-top: 29px;
+  }
+
+  .__pricecard1 img:nth-child(2) {
+    margin-top: 9px;
+  }
+
+  .__pricecard a:nth-child(6) {
+    padding: 7px 28px;
+  }
+
+  .__pricecard1 a:nth-child(6) {
+    padding: 7px 28px;
+  }
+
 
 
 
@@ -908,6 +934,12 @@
 
   .__dashphone {
     margin-top: 4%;
+    height: 575px;
+  }
+
+  .__laptop {
+    margin-left: 0px;
+    height: 522px;
   }
 
   .__specialleft p:nth-child(1) {
@@ -929,6 +961,10 @@
 
   .__insightright p:nth-child(1) {
     margin-top: 0%;
+  }
+
+  .__special {
+    height: 100vh;
   }
 
   .__testmonbg {
@@ -974,6 +1010,18 @@
     margin-top: 0;
   }
 
+  .__pricecard {
+    margin-top: 8px !important;
+    margin: 0 auto;
+    width: 217px;
+  }
+
+  .__pricecard1 {
+    margin-top: 8px !important;
+    margin: 0 auto;
+    width: 217px;
+  }
+
 
  
 
@@ -995,7 +1043,7 @@
   }
   .__humanstart p:nth-child(1) {
     /*font-size: 30px;*/
-    font-size: 26px;
+    font-size: 20px;
   }
 
   .__humanstart p:nth-child(2) {
