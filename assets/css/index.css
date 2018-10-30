@@ -964,7 +964,7 @@
   }
 
   .__special {
-    height: 100vh;
+    height: 756px;
   }
 
   .__testmonbg {
@@ -1020,6 +1020,10 @@
     margin-top: 8px !important;
     margin: 0 auto;
     width: 217px;
+  }
+
+  .__specialphone {
+    height: 1494px;
   }
 
 
